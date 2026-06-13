@@ -80,7 +80,9 @@ if (siteCursor && canUseFinePointer) {
   });
 }
 
-const heroSentences = [
+if (window.applySiteContent) window.applySiteContent();
+
+const heroSentences = window.heroSentencesFromContent || [
   "I BUILD STRATEGIES THAT DRIVE REAL GROWTH.",
   "I HELP BRANDS REACH THE RIGHT AUDIENCE.",
   "I AM ADHIL ASHRAF, A PERFORMANCE MARKETER.",

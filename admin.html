@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin | Adhil Bin Asharf Website</title>
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="stylesheet" href="styles.css?v=33">
+</head>
+<body class="admin-body">
+  <main class="admin-shell">
+    <aside class="admin-sidebar">
+      <a class="brand" href="index.html"><span>Adhil Bin Asharf</span></a>
+      <p>Owner content dashboard</p>
+      <nav class="admin-tabs" aria-label="Admin sections">
+        <button type="button" data-admin-tab="hero">Hero</button>
+        <button type="button" data-admin-tab="proof">Proof</button>
+        <button type="button" data-admin-tab="problem">Problem</button>
+        <button type="button" data-admin-tab="approach">Approach</button>
+        <button type="button" data-admin-tab="servicesPreview">Services</button>
+        <button type="button" data-admin-tab="casesPreview">Case Studies</button>
+        <button type="button" data-admin-tab="why">Why Me</button>
+        <button type="button" data-admin-tab="leadMagnet">Lead Magnet</button>
+        <button type="button" data-admin-tab="finalCta">Final CTA</button>
+        <button type="button" data-admin-tab="global">Global</button>
+        <button type="button" data-admin-tab="data">Import / Export</button>
+      </nav>
+    </aside>
+
+    <section class="admin-panel">
+      <header class="admin-topbar">
+        <div>
+          <p class="eyebrow">Admin side</p>
+          <h1>Website Content Editor</h1>
+        </div>
+        <div class="admin-actions">
+          <a class="button secondary" href="index.html" target="_blank" rel="noreferrer">Preview Site</a>
+          <button class="button primary" type="button" data-admin-save>Save Changes</button>
+        </div>
+      </header>
+
+      <p class="admin-notice">Changes save in this browser for the current static site. Use Export JSON to back up or send content to a developer for server-side publishing.</p>
+
+      <form class="admin-form" data-admin-form></form>
+    </section>
+  </main>
+
+  <script src="site-content.js?v=1"></script>
+  <script src="admin.js?v=1"></script>
+</body>
+</html>
